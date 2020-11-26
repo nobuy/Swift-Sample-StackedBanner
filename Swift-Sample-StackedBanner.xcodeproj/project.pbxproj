@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56061D39256E6A5B0000EA84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56061D38256E6A5B0000EA84 /* AppDelegate.swift */; };
+		56061D3D256E6A5B0000EA84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56061D3C256E6A5B0000EA84 /* ViewController.swift */; };
+		56061D42256E6A5E0000EA84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56061D41256E6A5E0000EA84 /* Assets.xcassets */; };
+		56061D45256E6A5E0000EA84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56061D43256E6A5E0000EA84 /* LaunchScreen.storyboard */; };
+		56061D50256E6A5E0000EA84 /* Swift_Sample_StackedBannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56061D4F256E6A5E0000EA84 /* Swift_Sample_StackedBannerTests.swift */; };
+		56061D5B256E6A5E0000EA84 /* Swift_Sample_StackedBannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56061D5A256E6A5E0000EA84 /* Swift_Sample_StackedBannerUITests.swift */; };
+		56061D81256E6F530000EA84 /* StackedBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56061D80256E6F530000EA84 /* StackedBanner.swift */; };
+		56061D87256E88CC0000EA84 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56061D86256E88CC0000EA84 /* Banner.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56061D4C256E6A5E0000EA84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56061D2D256E6A5B0000EA84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56061D34256E6A5B0000EA84;
+			remoteInfo = "Swift-Sample-StackedBanner";
+		};
+		56061D57256E6A5E0000EA84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56061D2D256E6A5B0000EA84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56061D34256E6A5B0000EA84;
+			remoteInfo = "Swift-Sample-StackedBanner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56061D35256E6A5B0000EA84 /* Swift-Sample-StackedBanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Sample-StackedBanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56061D38256E6A5B0000EA84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56061D3C256E6A5B0000EA84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56061D41256E6A5E0000EA84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56061D44256E6A5E0000EA84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56061D46256E6A5E0000EA84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56061D4B256E6A5E0000EA84 /* Swift-Sample-StackedBannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-Sample-StackedBannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56061D4F256E6A5E0000EA84 /* Swift_Sample_StackedBannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Sample_StackedBannerTests.swift; sourceTree = "<group>"; };
+		56061D51256E6A5E0000EA84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56061D56256E6A5E0000EA84 /* Swift-Sample-StackedBannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-Sample-StackedBannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56061D5A256E6A5E0000EA84 /* Swift_Sample_StackedBannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Sample_StackedBannerUITests.swift; sourceTree = "<group>"; };
+		56061D5C256E6A5E0000EA84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56061D80256E6F530000EA84 /* StackedBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedBanner.swift; sourceTree = "<group>"; };
+		56061D86256E88CC0000EA84 /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56061D32256E6A5B0000EA84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56061D48256E6A5E0000EA84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56061D53256E6A5E0000EA84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56061D2C256E6A5B0000EA84 = {
+			isa = PBXGroup;
+			children = (
+				56061D37256E6A5B0000EA84 /* Swift-Sample-StackedBanner */,
+				56061D4E256E6A5E0000EA84 /* Swift-Sample-StackedBannerTests */,
+				56061D59256E6A5E0000EA84 /* Swift-Sample-StackedBannerUITests */,
+				56061D36256E6A5B0000EA84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56061D36256E6A5B0000EA84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56061D35256E6A5B0000EA84 /* Swift-Sample-StackedBanner.app */,
+				56061D4B256E6A5E0000EA84 /* Swift-Sample-StackedBannerTests.xctest */,
+				56061D56256E6A5E0000EA84 /* Swift-Sample-StackedBannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56061D37256E6A5B0000EA84 /* Swift-Sample-StackedBanner */ = {
+			isa = PBXGroup;
+			children = (
+				56061D85256E88AE0000EA84 /* Views */,
+				56061D38256E6A5B0000EA84 /* AppDelegate.swift */,
+				56061D3C256E6A5B0000EA84 /* ViewController.swift */,
+				56061D41256E6A5E0000EA84 /* Assets.xcassets */,
+				56061D43256E6A5E0000EA84 /* LaunchScreen.storyboard */,
+				56061D46256E6A5E0000EA84 /* Info.plist */,
+			);
+			path = "Swift-Sample-StackedBanner";
+			sourceTree = "<group>";
+		};
+		56061D4E256E6A5E0000EA84 /* Swift-Sample-StackedBannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				56061D4F256E6A5E0000EA84 /* Swift_Sample_StackedBannerTests.swift */,
+				56061D51256E6A5E0000EA84 /* Info.plist */,
+			);
+			path = "Swift-Sample-StackedBannerTests";
+			sourceTree = "<group>";
+		};
+		56061D59256E6A5E0000EA84 /* Swift-Sample-StackedBannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56061D5A256E6A5E0000EA84 /* Swift_Sample_StackedBannerUITests.swift */,
+				56061D5C256E6A5E0000EA84 /* Info.plist */,
+			);
+			path = "Swift-Sample-StackedBannerUITests";
+			sourceTree = "<group>";
+		};
+		56061D85256E88AE0000EA84 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				56061D80256E6F530000EA84 /* StackedBanner.swift */,
+				56061D86256E88CC0000EA84 /* Banner.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56061D34256E6A5B0000EA84 /* Swift-Sample-StackedBanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56061D5F256E6A5E0000EA84 /* Build configuration list for PBXNativeTarget "Swift-Sample-StackedBanner" */;
+			buildPhases = (
+				56061D31256E6A5B0000EA84 /* Sources */,
+				56061D32256E6A5B0000EA84 /* Frameworks */,
+				56061D33256E6A5B0000EA84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift-Sample-StackedBanner";
+			productName = "Swift-Sample-StackedBanner";
+			productReference = 56061D35256E6A5B0000EA84 /* Swift-Sample-StackedBanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56061D4A256E6A5E0000EA84 /* Swift-Sample-StackedBannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56061D62256E6A5E0000EA84 /* Build configuration list for PBXNativeTarget "Swift-Sample-StackedBannerTests" */;
+			buildPhases = (
+				56061D47256E6A5E0000EA84 /* Sources */,
+				56061D48256E6A5E0000EA84 /* Frameworks */,
+				56061D49256E6A5E0000EA84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56061D4D256E6A5E0000EA84 /* PBXTargetDependency */,
+			);
+			name = "Swift-Sample-StackedBannerTests";
+			productName = "Swift-Sample-StackedBannerTests";
+			productReference = 56061D4B256E6A5E0000EA84 /* Swift-Sample-StackedBannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56061D55256E6A5E0000EA84 /* Swift-Sample-StackedBannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56061D65256E6A5E0000EA84 /* Build configuration list for PBXNativeTarget "Swift-Sample-StackedBannerUITests" */;
+			buildPhases = (
+				56061D52256E6A5E0000EA84 /* Sources */,
+				56061D53256E6A5E0000EA84 /* Frameworks */,
+				56061D54256E6A5E0000EA84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56061D58256E6A5E0000EA84 /* PBXTargetDependency */,
+			);
+			name = "Swift-Sample-StackedBannerUITests";
+			productName = "Swift-Sample-StackedBannerUITests";
+			productReference = 56061D56256E6A5E0000EA84 /* Swift-Sample-StackedBannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56061D2D256E6A5B0000EA84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					56061D34256E6A5B0000EA84 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					56061D4A256E6A5E0000EA84 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 56061D34256E6A5B0000EA84;
+					};
+					56061D55256E6A5E0000EA84 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 56061D34256E6A5B0000EA84;
+					};
+				};
+			};
+			buildConfigurationList = 56061D30256E6A5B0000EA84 /* Build configuration list for PBXProject "Swift-Sample-StackedBanner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56061D2C256E6A5B0000EA84;
+			productRefGroup = 56061D36256E6A5B0000EA84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56061D34256E6A5B0000EA84 /* Swift-Sample-StackedBanner */,
+				56061D4A256E6A5E0000EA84 /* Swift-Sample-StackedBannerTests */,
+				56061D55256E6A5E0000EA84 /* Swift-Sample-StackedBannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56061D33256E6A5B0000EA84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56061D45256E6A5E0000EA84 /* LaunchScreen.storyboard in Resources */,
+				56061D42256E6A5E0000EA84 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56061D49256E6A5E0000EA84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56061D54256E6A5E0000EA84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56061D31256E6A5B0000EA84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56061D81256E6F530000EA84 /* StackedBanner.swift in Sources */,
+				56061D87256E88CC0000EA84 /* Banner.swift in Sources */,
+				56061D3D256E6A5B0000EA84 /* ViewController.swift in Sources */,
+				56061D39256E6A5B0000EA84 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56061D47256E6A5E0000EA84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56061D50256E6A5E0000EA84 /* Swift_Sample_StackedBannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56061D52256E6A5E0000EA84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56061D5B256E6A5E0000EA84 /* Swift_Sample_StackedBannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56061D4D256E6A5E0000EA84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56061D34256E6A5B0000EA84 /* Swift-Sample-StackedBanner */;
+			targetProxy = 56061D4C256E6A5E0000EA84 /* PBXContainerItemProxy */;
+		};
+		56061D58256E6A5E0000EA84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56061D34256E6A5B0000EA84 /* Swift-Sample-StackedBanner */;
+			targetProxy = 56061D57256E6A5E0000EA84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56061D43256E6A5E0000EA84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56061D44256E6A5E0000EA84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56061D5D256E6A5E0000EA84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56061D5E256E6A5E0000EA84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56061D60256E6A5E0000EA84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U98SB9RZ9X;
+				INFOPLIST_FILE = "Swift-Sample-StackedBanner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.a10lab.Swift-Sample-StackedBanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56061D61256E6A5E0000EA84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U98SB9RZ9X;
+				INFOPLIST_FILE = "Swift-Sample-StackedBanner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.a10lab.Swift-Sample-StackedBanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		56061D63256E6A5E0000EA84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U98SB9RZ9X;
+				INFOPLIST_FILE = "Swift-Sample-StackedBannerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.a10lab.Swift-Sample-StackedBannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-Sample-StackedBanner.app/Swift-Sample-StackedBanner";
+			};
+			name = Debug;
+		};
+		56061D64256E6A5E0000EA84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U98SB9RZ9X;
+				INFOPLIST_FILE = "Swift-Sample-StackedBannerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.a10lab.Swift-Sample-StackedBannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-Sample-StackedBanner.app/Swift-Sample-StackedBanner";
+			};
+			name = Release;
+		};
+		56061D66256E6A5E0000EA84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U98SB9RZ9X;
+				INFOPLIST_FILE = "Swift-Sample-StackedBannerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.a10lab.Swift-Sample-StackedBannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swift-Sample-StackedBanner";
+			};
+			name = Debug;
+		};
+		56061D67256E6A5E0000EA84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U98SB9RZ9X;
+				INFOPLIST_FILE = "Swift-Sample-StackedBannerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.a10lab.Swift-Sample-StackedBannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swift-Sample-StackedBanner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56061D30256E6A5B0000EA84 /* Build configuration list for PBXProject "Swift-Sample-StackedBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56061D5D256E6A5E0000EA84 /* Debug */,
+				56061D5E256E6A5E0000EA84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56061D5F256E6A5E0000EA84 /* Build configuration list for PBXNativeTarget "Swift-Sample-StackedBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56061D60256E6A5E0000EA84 /* Debug */,
+				56061D61256E6A5E0000EA84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56061D62256E6A5E0000EA84 /* Build configuration list for PBXNativeTarget "Swift-Sample-StackedBannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56061D63256E6A5E0000EA84 /* Debug */,
+				56061D64256E6A5E0000EA84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56061D65256E6A5E0000EA84 /* Build configuration list for PBXNativeTarget "Swift-Sample-StackedBannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56061D66256E6A5E0000EA84 /* Debug */,
+				56061D67256E6A5E0000EA84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56061D2D256E6A5B0000EA84 /* Project object */;
+}
